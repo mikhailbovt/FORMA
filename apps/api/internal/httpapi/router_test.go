@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/google/uuid"
 	"github.com/mikhailbovt/FORMA/apps/api/internal/ai"
 	"github.com/mikhailbovt/FORMA/apps/api/internal/resume"
-	"github.com/google/uuid"
 )
 
 type healthyDB struct{ err error }

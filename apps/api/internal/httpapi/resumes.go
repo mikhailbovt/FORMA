@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/mikhailbovt/FORMA/apps/api/internal/resume"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 	"github.com/google/uuid"
+	"github.com/mikhailbovt/FORMA/apps/api/internal/resume"
 )
 
 func (api *API) listResumes(writer http.ResponseWriter, request *http.Request) {

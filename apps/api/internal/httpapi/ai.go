@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/go-chi/chi/v5/middleware"
 	"github.com/mikhailbovt/FORMA/apps/api/internal/ai"
 	"github.com/mikhailbovt/FORMA/apps/api/internal/quality"
 	"github.com/mikhailbovt/FORMA/apps/api/internal/resume"
-	"github.com/go-chi/chi/v5/middleware"
 )
 
 const aiSessionCookie = "forma_ai_session"

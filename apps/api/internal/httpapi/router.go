@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/go-chi/chi/v5"
+	"github.com/go-chi/chi/v5/middleware"
 	"github.com/mikhailbovt/FORMA/apps/api/internal/ai"
 	"github.com/mikhailbovt/FORMA/apps/api/internal/importer"
 	"github.com/mikhailbovt/FORMA/apps/api/internal/resume"
-	"github.com/go-chi/chi/v5"
-	"github.com/go-chi/chi/v5/middleware"
 )
 
 type healthChecker interface {
