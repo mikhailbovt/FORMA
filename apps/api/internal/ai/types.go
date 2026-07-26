@@ -3,7 +3,7 @@ package ai
 import (
 	"encoding/json"
 
-	"github.com/forma-resume/forma-smart-resume-builder/apps/api/internal/quality"
+	"github.com/mikhailbovt/FORMA/apps/api/internal/quality"
 )
 
 type ReviewRequest struct {

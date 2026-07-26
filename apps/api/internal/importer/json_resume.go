@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/forma-resume/forma-smart-resume-builder/apps/api/internal/resume"
+	"github.com/mikhailbovt/FORMA/apps/api/internal/resume"
 )
 
 type jsonResumeDocument struct {

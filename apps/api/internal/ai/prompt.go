@@ -9,7 +9,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/forma-resume/forma-smart-resume-builder/apps/api/internal/quality"
+	"github.com/mikhailbovt/FORMA/apps/api/internal/quality"
 )
 
 const systemPrompt = `You are Forma's resume editor. Improve clarity, impact, brevity, and ATS readability while preserving the user's voice.

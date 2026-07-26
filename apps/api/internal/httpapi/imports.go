@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/forma-resume/forma-smart-resume-builder/apps/api/internal/importer"
+	"github.com/mikhailbovt/FORMA/apps/api/internal/importer"
 )
 
 const maxImportMultipartParts = 16

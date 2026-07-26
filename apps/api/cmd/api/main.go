@@ -11,11 +11,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/forma-resume/forma-smart-resume-builder/apps/api/internal/ai"
-	"github.com/forma-resume/forma-smart-resume-builder/apps/api/internal/config"
-	"github.com/forma-resume/forma-smart-resume-builder/apps/api/internal/database"
-	"github.com/forma-resume/forma-smart-resume-builder/apps/api/internal/httpapi"
-	"github.com/forma-resume/forma-smart-resume-builder/apps/api/internal/resume"
+	"github.com/mikhailbovt/FORMA/apps/api/internal/ai"
+	"github.com/mikhailbovt/FORMA/apps/api/internal/config"
+	"github.com/mikhailbovt/FORMA/apps/api/internal/database"
+	"github.com/mikhailbovt/FORMA/apps/api/internal/httpapi"
+	"github.com/mikhailbovt/FORMA/apps/api/internal/resume"
 )
 
 func main() {

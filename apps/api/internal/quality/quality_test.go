@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/forma-resume/forma-smart-resume-builder/apps/api/internal/resume"
+	"github.com/mikhailbovt/FORMA/apps/api/internal/resume"
 )
 
 func TestGoldenEvaluations(t *testing.T) {

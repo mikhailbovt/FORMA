@@ -9,7 +9,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/forma-resume/forma-smart-resume-builder/apps/api/internal/quality"
+	"github.com/mikhailbovt/FORMA/apps/api/internal/quality"
 )
 
 var ErrInvalidOutput = errors.New("provider returned invalid structured output")

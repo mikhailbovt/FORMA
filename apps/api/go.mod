@@ -1,4 +1,4 @@
-module github.com/forma-resume/forma-smart-resume-builder/apps/api
+module github.com/mikhailbovt/FORMA/apps/api
 
 go 1.25.0
 

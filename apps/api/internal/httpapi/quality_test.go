@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/forma-resume/forma-smart-resume-builder/apps/api/internal/quality"
+	"github.com/mikhailbovt/FORMA/apps/api/internal/quality"
 )
 
 func TestEvaluateResumeQualityDoesNotRequireAISession(t *testing.T) {

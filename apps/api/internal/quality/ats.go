@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"unicode"
 
-	"github.com/forma-resume/forma-smart-resume-builder/apps/api/internal/resume"
+	"github.com/mikhailbovt/FORMA/apps/api/internal/resume"
 )
 
 func evaluateATS(document resume.Document) ATSAssessment {

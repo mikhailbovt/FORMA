@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/forma-resume/forma-smart-resume-builder/apps/api/internal/ai"
-	"github.com/forma-resume/forma-smart-resume-builder/apps/api/internal/importer"
-	"github.com/forma-resume/forma-smart-resume-builder/apps/api/internal/resume"
+	"github.com/mikhailbovt/FORMA/apps/api/internal/ai"
+	"github.com/mikhailbovt/FORMA/apps/api/internal/importer"
+	"github.com/mikhailbovt/FORMA/apps/api/internal/resume"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 )
