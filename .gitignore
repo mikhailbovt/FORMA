@@ -1,0 +1,35 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.secrets/
+*.local
+
+# JavaScript
+node_modules/
+apps/web/dist/
+*.tsbuildinfo
+
+# Go
+/bin/
+*.test
+*.out
+coverage/
+
+# Runtime files
+/tmp/
+*.log
+*.pid
+/data/
+
+# Local Compose overrides
+compose.override.yml
+compose.override.yaml
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~

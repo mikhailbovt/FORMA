@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "basics": {
+    "name": "Alex Morgan",
+    "headline": "Senior Product Engineer",
+    "email": "alex@example.com"
+  },
+  "summary": "Senior product engineer building reliable SaaS platforms, leading cross-functional delivery, improving operational quality, and turning customer problems into focused, maintainable product outcomes.",
+  "experience": [
+    {
+      "id": "exp-current",
+      "company": "Sentry Labs",
+      "position": "Senior Product Engineer",
+      "start_date": "2022-04",
+      "current": true,
+      "highlights": [
+        "Built an alerting workflow that improved incident response for support teams.",
+        "Reduced noisy notifications while preserving the signals operators needed most."
+      ]
+    },
+    {
+      "id": "exp-previous",
+      "company": "Compass",
+      "position": "Software Engineer",
+      "start_date": "2019-06",
+      "end_date": "2022-03",
+      "highlights": [
+        "Designed and launched onboarding tools that improved customer activation.",
+        "Automated recurring operations and saved the support team substantial manual work."
+      ]
+    }
+  ],
+  "skills": [
+    { "id": "skills-1", "name": "Engineering", "keywords": ["Go", "PostgreSQL", "React"] }
+  ],
+  "order": ["summary", "experience", "skills"],
+  "template": "editorial",
+  "page_size": "A4",
+  "language": "en"
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "basics": {
+    "name": "Your name",
+    "headline": ""
+  },
+  "order": ["summary", "experience"],
+  "template": "editorial",
+  "page_size": "A4",
+  "language": "en"
+}

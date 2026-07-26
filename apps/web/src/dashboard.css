@@ -1,0 +1,82 @@
+.dashboard-shell { min-height: 100vh; background: #f7f7f4; }
+.dashboard-topbar {
+  position: sticky;
+  z-index: 20;
+  top: 0;
+  display: flex;
+  height: var(--topbar-height);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 max(28px, calc((100vw - 1220px) / 2));
+  border-bottom: 1px solid var(--line);
+  background: rgba(255, 255, 255, .94);
+  backdrop-filter: blur(14px);
+}
+.dashboard-topbar__actions { display: flex; align-items: center; gap: 10px; }
+.provider-status { display: inline-flex; min-height: 40px; align-items: center; gap: 8px; border: 0; padding: 0 12px; color: #4d4d49; background: transparent; font-size: 12px; cursor: pointer; }
+.provider-status:hover { color: #000; background: #f1f1ed; }
+.dashboard-main { width: min(1220px, calc(100% - 56px)); margin: 0 auto; padding: 70px 0 90px; }
+.dashboard-hero { display: grid; grid-template-columns: minmax(0, 1fr) 330px; gap: 70px; align-items: end; padding: 30px 0 66px; }
+.eyebrow { display: block; margin-bottom: 17px; color: #696965; font-size: 11px; font-weight: 650; letter-spacing: .12em; text-transform: uppercase; }
+.dashboard-hero h1 { margin: 0; font-family: "Cormorant Garamond", Georgia, serif; font-size: clamp(48px, 5.2vw, 74px); font-weight: 400; letter-spacing: -.045em; line-height: .94; }
+.dashboard-hero > div > p { max-width: 620px; margin: 25px 0 0; color: #5c5c57; font-size: 15px; line-height: 1.65; }
+.dashboard-hero__note { display: flex; gap: 13px; padding: 18px 0; border-top: 1px solid var(--line-strong); border-bottom: 1px solid var(--line); }
+.dashboard-hero__note svg { margin-top: 2px; flex: 0 0 auto; }
+.dashboard-hero__note div { display: grid; gap: 5px; }
+.dashboard-hero__note strong { font-size: 13px; }
+.dashboard-hero__note span { color: var(--muted); font-size: 12px; line-height: 1.5; }
+.resume-library { border: 1px solid var(--line); background: #fff; }
+.resume-library__header { display: flex; min-height: 78px; align-items: center; justify-content: space-between; gap: 24px; padding: 0 22px 0 25px; border-bottom: 1px solid var(--line); }
+.resume-library__header > div:first-child { display: flex; align-items: baseline; gap: 12px; }
+.resume-library__header h2 { margin: 0; font-size: 16px; font-weight: 650; letter-spacing: -.015em; }
+.resume-library__header span { color: var(--muted); font-size: 12px; }
+.resume-library__actions { display: flex; align-items: center; gap: 4px; }
+.library-loading { display: flex; min-height: 280px; align-items: center; justify-content: center; gap: 10px; color: var(--muted); font-size: 13px; }
+.resume-list__labels, .resume-list-row { display: grid; grid-template-columns: minmax(300px, 1fr) 160px 140px 150px; align-items: center; }
+.resume-list__labels { min-height: 39px; padding: 0 14px 0 25px; border-bottom: 1px solid var(--line); color: #858580; background: #fafaf8; font-size: 10px; font-weight: 650; letter-spacing: .08em; text-transform: uppercase; }
+.resume-list-row { position: relative; min-height: 82px; padding: 0 14px 0 15px; border-bottom: 1px solid #e9e9e5; transition: background .15s ease; }
+.resume-list-row:last-child { border-bottom: 0; }
+.resume-list-row:hover { background: #fafaf8; }
+.resume-list-row__main { display: flex; min-width: 0; align-items: center; gap: 13px; border: 0; padding: 0 10px; text-align: left; background: transparent; cursor: pointer; }
+.resume-list-row__icon { display: grid; width: 40px; height: 46px; flex: 0 0 auto; place-items: center; border: 1px solid #d7d7d2; color: #262625; background: #fff; }
+.resume-list-row__main > span:last-child { display: grid; min-width: 0; gap: 5px; }
+.resume-list-row__main strong { overflow: hidden; font-size: 13px; text-overflow: ellipsis; white-space: nowrap; }
+.resume-list-row__main small { overflow: hidden; color: var(--muted); font-size: 12px; text-overflow: ellipsis; white-space: nowrap; }
+.resume-template-label { width: max-content; border-bottom: 1px solid #a8a8a2; padding-bottom: 2px; color: #454541; font-size: 11px; text-transform: capitalize; }
+.resume-list-row time { color: var(--muted); font-size: 12px; }
+.resume-list-row__actions { position: relative; display: flex; align-items: center; justify-content: flex-end; gap: 4px; }
+.open-link { display: inline-flex; align-items: center; gap: 6px; border: 0; padding: 9px 10px; background: transparent; font-size: 12px; font-weight: 600; cursor: pointer; }
+.open-link:hover { background: #eeeeea; }
+.row-menu, .topbar-menu { position: absolute; z-index: 30; top: calc(100% + 4px); right: 0; min-width: 164px; border: 1px solid #cecec8; padding: 5px; background: #fff; box-shadow: 0 14px 35px rgba(0, 0, 0, .13); }
+.row-menu button, .topbar-menu button { display: flex; width: 100%; align-items: center; gap: 9px; border: 0; padding: 9px 10px; text-align: left; background: transparent; font-size: 12px; cursor: pointer; }
+.row-menu button:hover, .topbar-menu button:hover { background: #f0f0ec; }
+.row-menu .danger, .topbar-menu .danger { color: var(--danger); }
+.create-form, .details-form, .settings-form { display: grid; gap: 18px; }
+.starter-picker { display: grid; gap: 8px; margin: 2px 0 0; border: 0; padding: 0; }
+.starter-picker legend { margin-bottom: 7px; font-size: 12px; font-weight: 650; }
+.starter-picker label { display: flex; align-items: flex-start; gap: 10px; border: 1px solid var(--line); padding: 13px; cursor: pointer; }
+.starter-picker label:has(input:checked) { border-color: #111; background: #fafaf8; }
+.starter-picker input { margin-top: 2px; accent-color: #111; }
+.starter-picker span { display: grid; gap: 4px; }
+.starter-picker strong { font-size: 13px; }
+.starter-picker small { color: var(--muted); font-size: 11px; line-height: 1.45; }
+
+@media (max-width: 900px) {
+  .dashboard-hero { grid-template-columns: 1fr; gap: 34px; }
+  .dashboard-hero__note { max-width: 460px; }
+  .resume-list__labels { display: none; }
+  .resume-list-row { grid-template-columns: 1fr auto; gap: 12px; padding: 14px; }
+  .resume-list-row > .resume-template-label, .resume-list-row > time { display: none; }
+}
+
+@media (max-width: 620px) {
+  .dashboard-topbar { padding: 0 16px; }
+  .provider-status { width: 40px; overflow: hidden; padding: 0 11px; white-space: nowrap; }
+  .dashboard-main { width: calc(100% - 28px); padding-top: 40px; }
+  .dashboard-hero { padding-bottom: 42px; }
+  .dashboard-hero h1 { font-size: 46px; }
+  .resume-library__header { align-items: flex-start; padding: 18px; }
+  .resume-library__actions .button { font-size: 0; padding: 0 12px; }
+  .resume-library__actions .button svg { width: 18px; height: 18px; }
+  .resume-list-row__actions .open-link { display: none; }
+}

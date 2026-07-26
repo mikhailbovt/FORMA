@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "basics": {
+    "name": "Alex Beispiel",
+    "headline": "Senior Software Engineer",
+    "email": "alex@example.com"
+  },
+  "summary": "Erfahrener Softwareentwickler mit Schwerpunkt auf zuverlässigen Plattformen, verständlichen Schnittstellen und einer nachhaltigen Zusammenarbeit zwischen Produktentwicklung und Betrieb.",
+  "experience": [
+    {
+      "id": "exp-current",
+      "company": "Beispiel GmbH",
+      "position": "Senior Software Engineer",
+      "start_date": "2022-01",
+      "current": true,
+      "highlights": [
+        "Entwickelte zuverlässige Dienste für interne und externe Produktteams.",
+        "Verbesserte gemeinsam mit dem Betrieb die Stabilität wichtiger Systeme.",
+        "Automatisierte wiederkehrende Abläufe für eine schnellere Bereitstellung."
+      ]
+    }
+  ],
+  "skills": [
+    { "id": "skills-1", "name": "Engineering", "keywords": ["Go", "PostgreSQL"] }
+  ],
+  "order": ["summary", "experience", "skills"],
+  "template": "editorial",
+  "page_size": "A4",
+  "language": "de"
+}
