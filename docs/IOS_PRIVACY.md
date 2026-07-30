@@ -50,10 +50,11 @@ included in exported PDF, DOCX, or JSON files.
 
 ## Optional Support purchase
 
-The one-time Support purchase is a voluntary tip to the developer. Apple
+Each optional Support purchase is a voluntary tip to the developer. Apple
 processes the StoreKit transaction under Apple's terms. FORMA has no payment
-backend and does not receive your full payment-card details. The purchase
-unlocks no feature and creates no support or development commitment.
+backend and does not receive your full payment-card details. It is a consumable
+purchase that can be made again; it unlocks no feature and creates no support
+or development commitment.
 
 ## Your choices
 
